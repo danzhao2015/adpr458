@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* CSS Document */
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+}
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Header */
+.header {
+	padding:5%;
+    background-color:#ddd;
+}
+
+/* Navigation */
+.column:first-child {
+    margin-left: 0;   
+}
+.column:first-child ul {
+    width: 100%;
+	float: left;
+	margin: 0 0 3em 0;
+	padding: 0;
+	list-style: none;
+	background-color: #f2f2f2;
+	border-bottom: 1px solid #ccc; 
+	border-top: 1px solid #ccc; 
+}
+.column:first-child ul li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+	float: left;
+}
+.column:first-child ul li a {
+	display: block;
+	padding: 8px 15px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #069;
+	border-right: 1px solid #ccc;
+}
+.column:first-child ul li a:hover {
+	color: #c00;
+	background-color: #fff;
+}
+	
+/* Content */	
+.column {
+    margin-left: 5%;
+    padding: 5%;
+}
+.column.full {
+    width: 100%;   
+}
+.column.two-thirds {
+	float: left;
+    width: 65%;
+    background: #FFFCD1;   
+}
+.column.one-third {
+	float: right;
+    width: 30%; 
+	background: #99c;  
+}
+.nopadding {
+    padding:0;   
+}
+
+/* Create Rows */
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;   
+}
+
+/* Footer */
+.footer {
+    background:#cc9;
+	padding:2%;
+}
+.footer p {
+	font-family:arial Constantia, Georgia, serif;
+	font-size:12px;
+}

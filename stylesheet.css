@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body{
+    background-color: #eee;   
+}
+
+h1 {
+ font-size: 2em;   
+}
+
+h2 {
+ font-size: 1.5em;   
+}
+
+h4 {
+	color:#069;
+	font-family: Arial, sans-serif;
+}
+
+p, ul {
+ font-size: 1em;
+}
+
+a {
+	color:#069;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#c00;
+	text-decoration:underline;
+}
