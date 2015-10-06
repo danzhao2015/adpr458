@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+.container {
+    max-width: 500px;
+    width: 50%;
+    margin: 0 auto;
+	padding: 10px;
+    background-color:#E6E6E6;
+}
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+
+
+h1, h4 {
+	font-family: Helvetica, Arial, sans-serif;
+}
+a {
+	text-decoration: none;
+	color: #69A2C8;
+}
+span.tagline {
+	position: relative;
+	top: -10px;
+	font-family: Helvetica, Arial, sans-serif;	
+}
+
+/* input area */
+.name {
+	width: 45%;
+	height: 30px;
+	font-size: 15px;
+	display: inline;
+	padding: 5px;
+	margin: 5px;
+}	
+.email, .password {
+	width: 93%;
+	height: 30px;
+	font-size: 15px;
+	padding: 5px;
+	margin: 5px;	
+}
+
+/* birthday selection */
+.birthday {
+	margin: 0;
+	padding: 0;
+	display: inline;
+	position: relative;
+	top: -10px;
+}
+.moreinfo {
+	font-size: 12px;
+	color: #69A2C8;
+	font-family: Helvetica, Arial, sans-serif;	
+}
+
+/* gender selection */
+.gender {
+	width: 50%;
+	font-size:16px;
+	padding: 15px;
+	font-family: Helvetica, Arial, sans-serif;	
+}
+
+/* sign up */
+span.agreement {
+	font-size: 12px;
+	color: #8A8A8A;
+	font-family: Helvetica, Arial, sans-serif;	
+}
+
+.signup {
+    display: block;
+    width: 45%;
+    padding: 10px;
+    background-color: #75A435;
+    color: white;
+	font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    border-radius: 5px;
+}
+.signup:hover {
+	background-color: #4BCD70;
+}
