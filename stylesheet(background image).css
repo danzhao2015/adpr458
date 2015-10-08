@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body{
+    background-color: #eee;   
+}
+
+h1 {
+ font-size: 2em;   
+}
+
+h2 {
+ font-size: 1.5em;   
+}
+
+h4 {
+	color:#069;
+	font-family: Arial, sans-serif;
+}
+
+p, ul {
+ font-size: 1em;
+}
+
+a {
+	color:#069;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#c00;
+	text-decoration:underline;
+}
+
+body {
+	background-image:url(../images/background.png);
+	background-attachment:fixed;
+	background-repeat: repeat-x;
+	background-size: 600px 800px;
+	animation: animatedBackground 40s linear infinite;
+}
+	
+	
+/* The animation code */
+@keyframes animatedBackground {
+    from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
